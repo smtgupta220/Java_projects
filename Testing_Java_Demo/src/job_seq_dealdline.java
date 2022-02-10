@@ -14,8 +14,8 @@ public class job_seq_dealdline {
     public static void main(String[] args) {
        
      
-        int profit[] ={2,4,3,1,10};
-        int deadline[] = {3,3,3,4,4};
+        int profit[] ={2,4,3,1,10,52};
+        int deadline[] = {3,3,3,4,4,2};
         //int maxi = Arrays.stream(deadline).max().getAsInt();
         
         

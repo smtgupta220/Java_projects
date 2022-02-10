@@ -17,7 +17,7 @@ public class bubble_sort {
         System.out.println("BEFORE BUBBLE SORTING ");
         for(i=0;i<a.length;i++)
             System.out.print(a[i]+" ");
-        System.out.println("");
+        System.out.println(" ");
         
         for(i=0;i<a.length;i++){
             swapped =0;
