@@ -24,7 +24,8 @@ public class Demo_print {
             if(y>0)
             return x/y;
             else return -1;
-    }
+    } 
+       // you can also add some more function
     
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -34,7 +35,7 @@ public class Demo_print {
         System.out.println("Enter 2nd number : ");
         b= sc.nextFloat();
         System.out.println("=============CHOOSE OPTION FROM BELOW =================");
-        System.out.println("1. Addtion \n 2. Subtration \n3. Multiply \n4. Divide");
+        System.out.println("1. Addtion \n2. Subtration \n3. Multiply \n4. Divide");
         
         int option  = sc.nextInt();
         float z=0;

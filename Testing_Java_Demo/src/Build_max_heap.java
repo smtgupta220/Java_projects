@@ -10,10 +10,10 @@
  */
 public class Build_max_heap {
  
-    public static void MAX_HEAPIFY(int []a,int n,int i){
-        int l = 2*i+1,r=2*i+2,largest=i;
-	if(l<n && a[l]>a[i])
-	largest = i;
+    public static void MAX_HEAPIFY(int []a,int n,int i){ // O(n)
+        int l = 2*i+1,r=2*i+2,largest=i; 
+	if(l<n && a[l]>a[i]) // if value of left is more , then point the 
+	largest = i;       // largest index pointer to i 
 	else
 	largest =r ;
 	if(r<n && a[r]>a[largest])
@@ -32,9 +32,9 @@ public static void swap(int x,int y){
 }
      
     
-    public static void BUILD_MAX_HEAP(int []a,int size){
+    public static void BUILD_MAX_HEAP(int []a,int size){ 
         int i;
-        for(i=size/2-1;i>=0;i--)
+        for(i=size/2-1;i>=0;i--) // O(logn)
             MAX_HEAPIFY(a,size,i);
     }
     
