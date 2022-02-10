@@ -23,7 +23,7 @@ public class Demo_print {
         public static float divide(float x , float y){
             if(y>0)
             return x/y;
-            else return -1;
+            else return -10;
     } 
        // you can also add some more function
     
